@@ -5,7 +5,10 @@ const Greeting = ({ name }) => {
 return <div>Hello, {name}!</div>;
  };
  export default Greeting;
+
 TYPE SCRIPT:
+
+
 import React from 'react';
 
 interface GreetingProps {
@@ -39,7 +42,9 @@ return
  } 
 export default Counter;
 
+
 TYPESCRIPT:
+
 
 import React, { Component } from 'react';
 
